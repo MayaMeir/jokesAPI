@@ -23,13 +23,13 @@ function ShowJokes() {
     return (
 
         <div>
-            <h1>jokes</h1>
-            <div style={{textAlign:"center"}}>
+            <h1>Site Of Jokes</h1>
+            <div style={{textAlign:"center", border:"2px solid black", width:"70%", margin:"auto"}}>
             <h1>{setup}</h1>
         <h3>{punchline}</h3>
             </div>
             <button onClick={getJoke} styles={{}}>
-                Get Cat!
+                Get Joke!
             </button>
             <p>{errorMassage}</p>
         </div>
